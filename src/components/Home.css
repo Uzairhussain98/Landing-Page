@@ -1,0 +1,48 @@
+.home {
+  background-image: url(./assets/ideas.jpg);
+  /* background-color: yellow; */
+  height: 632px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 0px;
+  object-fit: contain;
+  display: flex;
+}
+
+.ideas {
+  width: 500px;
+  height: 450px;
+  margin-top: 130px;
+  margin-left: 30px;
+}
+.ideas > h1 {
+  color: whitesmoke;
+  font-size: 60px;
+}
+.ideas > p {
+  color: rgb(155, 151, 151);
+  font-size: 16px;
+  margin-top: -20px;
+}
+.container {
+  display: flex;
+  margin-top: 30px;
+}
+.btn {
+  background-color: #fbc56b;
+  height: 50px;
+  width: 140px;
+  font-size: 16px;
+  color: #223b73;
+  margin-right: 20px;
+  border: none;
+  border-radius: 5px;
+  transition: ease 0.3s;
+}
+
+.btn:hover {
+  color: #fbc56b;
+  background-color: #223b73;
+  border: 2px solid #fbc56b;
+}
